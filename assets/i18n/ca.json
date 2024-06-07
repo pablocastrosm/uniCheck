@@ -1,0 +1,58 @@
+{
+  "translation": {
+    "BUTTONS": {
+      "RECOVER": "Recuperar",
+      "SEND": "Enviar",
+      "BACK": "Enrere",
+      "CANCEL": "Cancel·lar",
+      "ACCEPT": "Acceptar",
+      "NEXT": "Següent",
+      "SKIP": "Saltar",
+      "START": "Començar"
+    },
+    "FORM_FIELDS": {
+      "EMAIL": "Email",
+      "EMAIL_PLACEHOLDER": "Introduir Email",
+      "PWD": "Contrasenya",
+      "PWD_PLACEHOLDER": "Introduir Contrasenya",
+      "NAME": "Nom",
+      "NAME_PLACEHOLDER": "Introduir Nom",
+      "SURNAME": "Cognom",
+      "SURNAME_PLACEHOLDER": "Introduir Cognom"
+    },
+    "FORM_ERRORS": {
+      "INVALID_EMAIL": "L'email introduit no és vàlid",
+      "INVALID_PWD": "La contrasenya ha de tenir una llargada mínima de {{minLength}} caràcters i contenir majúscules i minúscules",
+      "INVALID_NAME": "El nom no té un format vàlid"
+    },
+    "LOGIN": {
+      "LOGIN": "Iniciar sessió",
+      "LOGOUT": "Tancar sessió",
+      "FORGOT_PWD": "Has oblidat la contrasenya?"
+    },
+    "REGISTER": {
+      "REGISTER": "Registrar-se"
+    },
+    "RESET_PWD": {
+      "RESET_PWD": "Recuperar contrasenya",
+      "NEW_PWD": "Nova contrasenya",
+      "EMAIL_NOT_FOUND": "L'email no pertany a cap compte"
+    },
+    "ERROR": {
+      "ERROR": "Error",
+      "AUTH_ERROR": "L'email o la contrasenya no són correctes",
+      "LOADING_USER": "S'ha produit un error al carregar les dades d'usuari",
+      "SESSION_EXPIRED": "La sessió ha caducat, si us plau torna a iniciar sessió",
+      "REGISTER": "S'ha produit un error durant el registre, si us plau torna-ho a provar més tard",
+      "USER_ALREADY_EXISTS": "Aquest email ja està associat a un altre compte",
+      "SEND_CODE": "S'ha produit un error a l'intentar enviar el codi, si us plau torna-ho a provar més tard",
+      "RESET_PWD": "S'ha produit un error a l'intentar restablir la contrasenya, si us plau torna-ho a provar més tard"
+    },
+    "DATETIME": {
+      "CHOOSE_DATE": "Selecciona una data",
+      "TODAY": "Avui",
+      "YESTERDAY": "Ahir",
+      "TOMORROW": "Demà"
+    }
+  }
+}

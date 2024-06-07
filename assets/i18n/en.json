@@ -1,0 +1,58 @@
+{
+  "translation": {
+    "BUTTONS": {
+      "RECOVER": "Recover",
+      "SEND": "Send",
+      "BACK": "Back",
+      "CANCEL": "Cancel",
+      "ACCEPT": "Accept",
+      "NEXT": "Next",
+      "SKIP": "Skip",
+      "START": "Start"
+    },
+    "FORM_FIELDS": {
+      "EMAIL": "Email",
+      "EMAIL_PLACEHOLDER": "Enter Email",
+      "PWD": "Password",
+      "PWD_PLACEHOLDER": "Enter Password",
+      "NAME": "Name",
+      "NAME_PLACEHOLDER": "Enter Name",
+      "SURNAME": "Surname",
+      "SURNAME_PLACEHOLDER": "Enter Surname"
+    },
+    "FORM_ERRORS": {
+      "INVALID_EMAIL": "Email is not valid",
+      "INVALID_PWD": "Password must be at least {{minLength}} characters long and must include uppercase and lowercase",
+      "INVALID_NAME": "Name does not have a valid format"
+    },
+    "LOGIN": {
+      "LOGIN": "Log in",
+      "LOGOUT": "Log out",
+      "FORGOT_PWD": "Forgot your password?"
+    },
+    "REGISTER": {
+      "REGISTER": "Sign up"
+    },
+    "RESET_PWD": {
+      "RESET_PWD": "Reset password",
+      "NEW_PWD": "New password",
+      "EMAIL_NOT_FOUND": "Email does not belong to any account"
+    },
+    "ERROR": {
+      "ERROR": "Error",
+      "AUTH_ERROR": "Email and password do not match",
+      "LOADING_USER": "An error occurred loading user data",
+      "SESSION_EXPIRED": "Session expired, please log in again",
+      "REGISTER": "An error occurred during register, please try again later",
+      "USER_ALREADY_EXISTS": "This email already belongs to another account",
+      "SEND_CODE": "An error occurred when trying to send you a code, please try again later",
+      "RESET_PWD": "An error occurred when trying to reset your password, please try again later"
+    },
+    "DATETIME": {
+      "CHOOSE_DATE": "Select a date",
+      "TODAY": "Today",
+      "YESTERDAY": "Yesterday",
+      "TOMORROW": "Tomorrow"
+    }
+  }
+}

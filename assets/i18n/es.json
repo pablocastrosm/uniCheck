@@ -1,0 +1,58 @@
+{
+  "translation": {
+    "BUTTONS": {
+      "RECOVER": "Recuperar",
+      "SEND": "Enviar",
+      "BACK": "Volver",
+      "CANCEL": "Cancelar",
+      "ACCEPT": "Aceptar",
+      "NEXT": "Siguiente",
+      "SKIP": "Saltar",
+      "START": "Empezar"
+    },
+    "FORM_FIELDS": {
+      "EMAIL": "Email",
+      "EMAIL_PLACEHOLDER": "Introducir Email",
+      "PWD": "Contraseña",
+      "PWD_PLACEHOLDER": "Introducir Contraseña",
+      "NAME": "Nombre",
+      "NAME_PLACEHOLDER": "Introducir Nombre",
+      "SURNAME": "Apellido",
+      "SURNAME_PLACEHOLDER": "Introducir Apellido"
+    },
+    "FORM_ERRORS": {
+      "INVALID_EMAIL": "El email introducido no es válido",
+      "INVALID_PWD": "La contraseña debe tener una longitud mínima de {{minLength}} caracteres y contener mayúsculas i minúsculas",
+      "INVALID_NAME": "El nombre no tiene un formato válido"
+    },
+    "LOGIN": {
+      "LOGIN": "Iniciar sesión",
+      "LOGOUT": "Cerrar sesión",
+      "FORGOT_PWD": "¿Has olvidado la contraseña?"
+    },
+    "REGISTER": {
+      "REGISTER": "Registrarse"
+    },
+    "RESET_PWD": {
+      "RESET_PWD": "Recuperar contraseña",
+      "NEW_PWD": "Nueva contraseña",
+      "EMAIL_NOT_FOUND": "El email no pertenece a ninguna cuenta"
+    },
+    "ERROR": {
+      "ERROR": "Error",
+      "AUTH_ERROR": "El email o la contraseña no son correctos",
+      "LOADING_USER": "Se ha producido un error al cargar los datos del usuario",
+      "SESSION_EXPIRED": "La sesión ha caducado, por favor vuelve a iniciar sesión",
+      "REGISTER": "Se ha producido un error durante el registro, por favor vuelve a intentarlo más tarde",
+      "USER_ALREADY_EXISTS": "Este email ya está asociado a otra cuenta",
+      "SEND_CODE": "Se ha producido un error al intentar enviar el código, por favor vuelve a intentarlo más tarde",
+      "RESET_PWD": "Se ha producido un error al intentar restablecer la contraseña, por favor vuelve a intentarlo más tarde"
+    },
+    "DATETIME": {
+      "CHOOSE_DATE": "Selecciona una fecha",
+      "TODAY": "Hoy",
+      "YESTERDAY": "Ayer",
+      "TOMORROW": "Mañana"
+    }
+  }
+}
