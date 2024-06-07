@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		032A9C2F28D4A1D7008F7CA6 /* RNConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 032A9C2E28D4A1D7008F7CA6 /* RNConfig.m */; };
 		07718DC11C70439CB8CE52F2 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5DB1DADFC114AD1B3B079F2 /* Montserrat-Medium.ttf */; };
-		0C80B921A6F3F58F76C31292 /* libPods-slashtemplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-slashtemplate.a */; };
+		0C80B921A6F3F58F76C31292 /* libPods-uniCheck.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-uniCheck.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -36,42 +36,42 @@
 /* Begin PBXFileReference section */
 		0085CE5EC78E4CA7AE0FEA02 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = ../assets/fonts/SimpleLineIcons.ttf; sourceTree = "<group>"; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* slashtemplateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = slashtemplateTests.m; sourceTree = "<group>"; };
-		032A9C2D28D4A1D7008F7CA6 /* RNConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RNConfig.h; path = slashtemplate/RNConfig.h; sourceTree = "<group>"; };
-		032A9C2E28D4A1D7008F7CA6 /* RNConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RNConfig.m; path = slashtemplate/RNConfig.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* uniCheckTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = uniCheckTests.m; sourceTree = "<group>"; };
+		032A9C2D28D4A1D7008F7CA6 /* RNConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RNConfig.h; path = uniCheck/RNConfig.h; sourceTree = "<group>"; };
+		032A9C2E28D4A1D7008F7CA6 /* RNConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RNConfig.m; path = uniCheck/RNConfig.m; sourceTree = "<group>"; };
 		065D59789EB7450CB05DD86F /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = ../assets/fonts/Entypo.ttf; sourceTree = "<group>"; };
 		068742271A6B4465A9CB7B50 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBold.ttf"; path = "../assets/fonts/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		0A2978D94F30427F82F7F396 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = ../assets/fonts/Zocial.ttf; sourceTree = "<group>"; };
 		12B97A161D4A432E9E6A39B7 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = ../assets/fonts/Fontisto.ttf; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* SlashTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlashTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = slashtemplate/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = slashtemplate/AppDelegate.mm; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = slashtemplate/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = slashtemplate/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = slashtemplate/main.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-slashtemplate-slashtemplateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-slashtemplate-slashtemplateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* uniCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uniCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = uniCheck/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = uniCheck/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = uniCheck/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = uniCheck/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = uniCheck/main.m; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-uniCheck-uniCheckTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-uniCheck-uniCheckTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AC60DC46BFB438380844F87 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = ../assets/fonts/Feather.ttf; sourceTree = "<group>"; };
-		1E7EB553ECBF63E75012DBC6 /* Pods-slashtemplate.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slashtemplate.debugprod.xcconfig"; path = "Target Support Files/Pods-slashtemplate/Pods-slashtemplate.debugprod.xcconfig"; sourceTree = "<group>"; };
+		1E7EB553ECBF63E75012DBC6 /* Pods-uniCheck.debugprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uniCheck.debugprod.xcconfig"; path = "Target Support Files/Pods-uniCheck/Pods-uniCheck.debugprod.xcconfig"; sourceTree = "<group>"; };
 		23F81ABF75FA4B9C94E1CA49 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-MediumItalic.ttf"; path = "../assets/fonts/Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
 		2BDE819D852A4C13BBA4C132 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = ../assets/fonts/FontAwesome.ttf; sourceTree = "<group>"; };
 		2C36027ECE91468FA0BC449D /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = ../assets/fonts/FontAwesome5_Brands.ttf; sourceTree = "<group>"; };
 		326425A47D3F4C8D84A48D27 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = ../assets/fonts/EvilIcons.ttf; sourceTree = "<group>"; };
 		34A4B7B6854F4121ABFAD61D /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ThinItalic.ttf"; path = "../assets/fonts/Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
-		3B4392A12AC88292D35C810B /* Pods-slashtemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slashtemplate.debug.xcconfig"; path = "Target Support Files/Pods-slashtemplate/Pods-slashtemplate.debug.xcconfig"; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-uniCheck.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uniCheck.debug.xcconfig"; path = "Target Support Files/Pods-uniCheck/Pods-uniCheck.debug.xcconfig"; sourceTree = "<group>"; };
 		4AEC632F214749AB86C005CD /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = ../assets/fonts/MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
-		4F6338DE8E09AE1246025CE7 /* Pods-slashtemplate.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slashtemplate.debugdev.xcconfig"; path = "Target Support Files/Pods-slashtemplate/Pods-slashtemplate.debugdev.xcconfig"; sourceTree = "<group>"; };
-		51BF1C677BA66449DE72ADDD /* Pods-slashtemplate.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slashtemplate.releasedev.xcconfig"; path = "Target Support Files/Pods-slashtemplate/Pods-slashtemplate.releasedev.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-slashtemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slashtemplate.release.xcconfig"; path = "Target Support Files/Pods-slashtemplate/Pods-slashtemplate.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-slashtemplate-slashtemplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slashtemplate-slashtemplateTests.debug.xcconfig"; path = "Target Support Files/Pods-slashtemplate-slashtemplateTests/Pods-slashtemplate-slashtemplateTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-slashtemplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-slashtemplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F6338DE8E09AE1246025CE7 /* Pods-uniCheck.debugdev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uniCheck.debugdev.xcconfig"; path = "Target Support Files/Pods-uniCheck/Pods-uniCheck.debugdev.xcconfig"; sourceTree = "<group>"; };
+		51BF1C677BA66449DE72ADDD /* Pods-uniCheck.releasedev.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uniCheck.releasedev.xcconfig"; path = "Target Support Files/Pods-uniCheck/Pods-uniCheck.releasedev.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-uniCheck.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uniCheck.release.xcconfig"; path = "Target Support Files/Pods-uniCheck/Pods-uniCheck.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-uniCheck-uniCheckTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uniCheck-uniCheckTests.debug.xcconfig"; path = "Target Support Files/Pods-uniCheck-uniCheckTests/Pods-uniCheck-uniCheckTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-uniCheck.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-uniCheck.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61212BEE27584DF18F08FB98 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraBold.ttf"; path = "../assets/fonts/Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
 		6E707A49AB2E4A6EAEF5A6CE /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = ../assets/fonts/Foundation.ttf; sourceTree = "<group>"; };
 		7393A7C00BD94620B1E1BBEE /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = ../assets/fonts/AntDesign.ttf; sourceTree = "<group>"; };
 		7E71F8CCA73C434AAFCD1CB1 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraBoldItalic.ttf"; path = "../assets/fonts/Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = slashtemplate/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = uniCheck/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87BAF45AD58B4A36AB78AF72 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = ../assets/fonts/Ionicons.ttf; sourceTree = "<group>"; };
 		88AB9813125641B79FE545CF /* Montserrat-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Black.ttf"; path = "../assets/fonts/Montserrat-Black.ttf"; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-slashtemplate-slashtemplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slashtemplate-slashtemplateTests.release.xcconfig"; path = "Target Support Files/Pods-slashtemplate-slashtemplateTests/Pods-slashtemplate-slashtemplateTests.release.xcconfig"; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-uniCheck-uniCheckTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uniCheck-uniCheckTests.release.xcconfig"; path = "Target Support Files/Pods-uniCheck-uniCheckTests/Pods-uniCheck-uniCheckTests.release.xcconfig"; sourceTree = "<group>"; };
 		8EDFA642750548E6B6772CB4 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-SemiBoldItalic.ttf"; path = "../assets/fonts/Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		A07785D338614B61BDEA0D17 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-BlackItalic.ttf"; path = "../assets/fonts/Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
 		A43A4810EC3D4A54B5A7D89D /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-BoldItalic.ttf"; path = "../assets/fonts/Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
@@ -80,14 +80,14 @@
 		B64E65456CDC4832B1DB7DE1 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraLight.ttf"; path = "../assets/fonts/Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
 		BB0F5822F4F744C8B4DD7722 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Italic.ttf"; path = "../assets/fonts/Montserrat-Italic.ttf"; sourceTree = "<group>"; };
 		BD67B5C497594C5291776840 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Light.ttf"; path = "../assets/fonts/Montserrat-Light.ttf"; sourceTree = "<group>"; };
-		C20FDDE304D000FD0387B782 /* Pods-slashtemplate.releasepre.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slashtemplate.releasepre.xcconfig"; path = "Target Support Files/Pods-slashtemplate/Pods-slashtemplate.releasepre.xcconfig"; sourceTree = "<group>"; };
+		C20FDDE304D000FD0387B782 /* Pods-uniCheck.releasepre.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uniCheck.releasepre.xcconfig"; path = "Target Support Files/Pods-uniCheck/Pods-uniCheck.releasepre.xcconfig"; sourceTree = "<group>"; };
 		C5DB1DADFC114AD1B3B079F2 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Medium.ttf"; path = "../assets/fonts/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
-		D080362072096B216166C136 /* Pods-slashtemplate.debugpre.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slashtemplate.debugpre.xcconfig"; path = "Target Support Files/Pods-slashtemplate/Pods-slashtemplate.debugpre.xcconfig"; sourceTree = "<group>"; };
+		D080362072096B216166C136 /* Pods-uniCheck.debugpre.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uniCheck.debugpre.xcconfig"; path = "Target Support Files/Pods-uniCheck/Pods-uniCheck.debugpre.xcconfig"; sourceTree = "<group>"; };
 		DF58F12D42504EC896CD3205 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = ../assets/fonts/FontAwesome5_Regular.ttf; sourceTree = "<group>"; };
 		E85D8F1BF06240E0903171D8 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Thin.ttf"; path = "../assets/fonts/Montserrat-Thin.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F39EDFD9A416488B890941B9 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-ExtraLightItalic.ttf"; path = "../assets/fonts/Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
-		F4B7AD27852797D790449422 /* Pods-slashtemplate.releaseprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-slashtemplate.releaseprod.xcconfig"; path = "Target Support Files/Pods-slashtemplate/Pods-slashtemplate.releaseprod.xcconfig"; sourceTree = "<group>"; };
+		F4B7AD27852797D790449422 /* Pods-uniCheck.releaseprod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-uniCheck.releaseprod.xcconfig"; path = "Target Support Files/Pods-uniCheck/Pods-uniCheck.releaseprod.xcconfig"; sourceTree = "<group>"; };
 		F59756C17BC543C6BBE8667E /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-LightItalic.ttf"; path = "../assets/fonts/Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
 		F6ED437344054439BA84BB66 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Montserrat-Regular.ttf"; path = "../assets/fonts/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		FA4AA3EFBDF3466D8939E70D /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = ../assets/fonts/MaterialIcons.ttf; sourceTree = "<group>"; };
@@ -99,20 +99,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-slashtemplate.a in Frameworks */,
+				0C80B921A6F3F58F76C31292 /* libPods-uniCheck.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* slashtemplateTests */ = {
+		00E356EF1AD99517003FC87E /* uniCheckTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* slashtemplateTests.m */,
+				00E356F21AD99517003FC87E /* uniCheckTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = slashtemplateTests;
+			path = uniCheckTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -164,7 +164,7 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* slashtemplate */ = {
+		13B07FAE1A68108700A75B9A /* uniCheck */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -176,15 +176,15 @@
 				032A9C2D28D4A1D7008F7CA6 /* RNConfig.h */,
 				032A9C2E28D4A1D7008F7CA6 /* RNConfig.m */,
 			);
-			name = slashtemplate;
+			name = uniCheck;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-slashtemplate.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-slashtemplate-slashtemplateTests.a */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-uniCheck.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-uniCheck-uniCheckTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -199,9 +199,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* slashtemplate */,
+				13B07FAE1A68108700A75B9A /* uniCheck */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* slashtemplateTests */,
+				00E356EF1AD99517003FC87E /* uniCheckTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
@@ -215,7 +215,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* SlashTemplate.app */,
+				13B07F961A680F5B00A75B9A /* uniCheck.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -223,16 +223,16 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-slashtemplate.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-slashtemplate.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-slashtemplate-slashtemplateTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-slashtemplate-slashtemplateTests.release.xcconfig */,
-				1E7EB553ECBF63E75012DBC6 /* Pods-slashtemplate.debugprod.xcconfig */,
-				4F6338DE8E09AE1246025CE7 /* Pods-slashtemplate.debugdev.xcconfig */,
-				D080362072096B216166C136 /* Pods-slashtemplate.debugpre.xcconfig */,
-				F4B7AD27852797D790449422 /* Pods-slashtemplate.releaseprod.xcconfig */,
-				C20FDDE304D000FD0387B782 /* Pods-slashtemplate.releasepre.xcconfig */,
-				51BF1C677BA66449DE72ADDD /* Pods-slashtemplate.releasedev.xcconfig */,
+				3B4392A12AC88292D35C810B /* Pods-uniCheck.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-uniCheck.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-uniCheck-uniCheckTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-uniCheck-uniCheckTests.release.xcconfig */,
+				1E7EB553ECBF63E75012DBC6 /* Pods-uniCheck.debugprod.xcconfig */,
+				4F6338DE8E09AE1246025CE7 /* Pods-uniCheck.debugdev.xcconfig */,
+				D080362072096B216166C136 /* Pods-uniCheck.debugpre.xcconfig */,
+				F4B7AD27852797D790449422 /* Pods-uniCheck.releaseprod.xcconfig */,
+				C20FDDE304D000FD0387B782 /* Pods-uniCheck.releasepre.xcconfig */,
+				51BF1C677BA66449DE72ADDD /* Pods-uniCheck.releasedev.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -240,9 +240,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		13B07F861A680F5B00A75B9A /* slashtemplate */ = {
+		13B07F861A680F5B00A75B9A /* uniCheck */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "slashtemplate" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "uniCheck" */;
 			buildPhases = (
 				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
@@ -256,9 +256,9 @@
 			);
 			dependencies = (
 			);
-			name = slashtemplate;
-			productName = slashtemplate;
-			productReference = 13B07F961A680F5B00A75B9A /* SlashTemplate.app */;
+			name = uniCheck;
+			productName = uniCheck;
+			productReference = 13B07F961A680F5B00A75B9A /* uniCheck.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -274,7 +274,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "slashtemplate" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "uniCheck" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -287,7 +287,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* slashtemplate */,
+				13B07F861A680F5B00A75B9A /* uniCheck */,
 			);
 		};
 /* End PBXProject section */
@@ -345,15 +345,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-slashtemplate/Pods-slashtemplate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-uniCheck/Pods-uniCheck-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-slashtemplate/Pods-slashtemplate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-uniCheck/Pods-uniCheck-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-slashtemplate/Pods-slashtemplate-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-uniCheck/Pods-uniCheck-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
@@ -371,7 +371,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-slashtemplate-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-uniCheck-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -384,15 +384,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-slashtemplate/Pods-slashtemplate-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-uniCheck/Pods-uniCheck-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-slashtemplate/Pods-slashtemplate-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-uniCheck/Pods-uniCheck-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-slashtemplate/Pods-slashtemplate-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-uniCheck/Pods-uniCheck-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -493,7 +493,7 @@
 		};
 		032A9C2228D49FA9008F7CA6 /* DebugPre */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D080362072096B216166C136 /* Pods-slashtemplate.debugpre.xcconfig */;
+			baseConfigurationReference = D080362072096B216166C136 /* Pods-uniCheck.debugpre.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -509,7 +509,7 @@
 					"HERMES_ENABLE_DEBUGGER=1",
 					"PRE=1",
 				);
-				INFOPLIST_FILE = slashtemplate/Info.plist;
+				INFOPLIST_FILE = uniCheck/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -520,8 +520,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.slashtemplate.app.pre;
-				PRODUCT_NAME = "SlashTemplate PRE";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uniCheck.app.pre;
+				PRODUCT_NAME = "uniCheck PRE";
 				PROVISIONING_PROFILE_SPECIFIER = "SportDone PRE Development";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -611,7 +611,7 @@
 		};
 		032A9C2528D49FAB008F7CA6 /* DebugDev */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F6338DE8E09AE1246025CE7 /* Pods-slashtemplate.debugdev.xcconfig */;
+			baseConfigurationReference = 4F6338DE8E09AE1246025CE7 /* Pods-uniCheck.debugdev.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -627,7 +627,7 @@
 					"HERMES_ENABLE_DEBUGGER=1",
 					"DEV=1",
 				);
-				INFOPLIST_FILE = slashtemplate/Info.plist;
+				INFOPLIST_FILE = uniCheck/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -638,8 +638,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.slashtemplate.app.dev;
-				PRODUCT_NAME = "SlashTemplate DEV";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uniCheck.app.dev;
+				PRODUCT_NAME = "uniCheck DEV";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -722,7 +722,7 @@
 		};
 		032A9C2828D49FC6008F7CA6 /* ReleaseDev */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51BF1C677BA66449DE72ADDD /* Pods-slashtemplate.releasedev.xcconfig */;
+			baseConfigurationReference = 51BF1C677BA66449DE72ADDD /* Pods-uniCheck.releasedev.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -736,7 +736,7 @@
 					"HERMES_ENABLE_DEBUGGER=1",
 					"DEV=1",
 				);
-				INFOPLIST_FILE = slashtemplate/Info.plist;
+				INFOPLIST_FILE = uniCheck/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -747,8 +747,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.slashtemplate.app.dev;
-				PRODUCT_NAME = "SlashTemplate DEV";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uniCheck.app.dev;
+				PRODUCT_NAME = "uniCheck DEV";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -830,7 +830,7 @@
 		};
 		032A9C2B28D49FC8008F7CA6 /* ReleasePre */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C20FDDE304D000FD0387B782 /* Pods-slashtemplate.releasepre.xcconfig */;
+			baseConfigurationReference = C20FDDE304D000FD0387B782 /* Pods-uniCheck.releasepre.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -844,7 +844,7 @@
 					"HERMES_ENABLE_DEBUGGER=1",
 					"PRE=1",
 				);
-				INFOPLIST_FILE = slashtemplate/Info.plist;
+				INFOPLIST_FILE = uniCheck/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -855,8 +855,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.slashtemplate.app.pre;
-				PRODUCT_NAME = "SlashTemplate PRE";
+				PRODUCT_BUNDLE_IDENTIFIER = com.uniCheck.app.pre;
+				PRODUCT_NAME = "uniCheck PRE";
 				PROVISIONING_PROFILE_SPECIFIER = "SportDone PRE";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -865,7 +865,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* DebugProd */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E7EB553ECBF63E75012DBC6 /* Pods-slashtemplate.debugprod.xcconfig */;
+			baseConfigurationReference = 1E7EB553ECBF63E75012DBC6 /* Pods-uniCheck.debugprod.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -874,7 +874,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WTE2LYEZ9C;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = slashtemplate/Info.plist;
+				INFOPLIST_FILE = uniCheck/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -885,8 +885,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.slashtemplate.app.pro;
-				PRODUCT_NAME = SlashTemplate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uniCheck.app.pro;
+				PRODUCT_NAME = uniCheck;
 				PROVISIONING_PROFILE_SPECIFIER = "SportDone PRO Development";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -896,7 +896,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* ReleaseProd */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4B7AD27852797D790449422 /* Pods-slashtemplate.releaseprod.xcconfig */;
+			baseConfigurationReference = F4B7AD27852797D790449422 /* Pods-uniCheck.releaseprod.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -904,7 +904,7 @@
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WTE2LYEZ9C;
-				INFOPLIST_FILE = slashtemplate/Info.plist;
+				INFOPLIST_FILE = uniCheck/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -915,8 +915,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.slashtemplate.app;
-				PRODUCT_NAME = SlashTemplate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uniCheck.app;
+				PRODUCT_NAME = uniCheck;
 				PROVISIONING_PROFILE_SPECIFIER = "SportDone PRO";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1079,7 +1079,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "slashtemplate" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "uniCheck" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* DebugProd */,
@@ -1092,7 +1092,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = ReleaseProd;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "slashtemplate" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "uniCheck" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* DebugProd */,

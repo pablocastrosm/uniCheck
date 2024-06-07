@@ -1,4 +1,4 @@
-package com.slashtemplate.app;
+package com.uniCheck.app;
 
 import com.facebook.react.ReactPackage;
 import com.facebook.react.bridge.NativeModule;

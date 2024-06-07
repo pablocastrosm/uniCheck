@@ -74,9 +74,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.slashtemplate.app"
+    namespace "com.uniCheck.app"
     defaultConfig {
-        applicationId "com.slashtemplate.app"
+        applicationId "com.uniCheck.app"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -104,16 +104,8 @@ android {
     }
     flavorDimensions "env"
     productFlavors {
-        dev {
-            resValue "string", "app_name", "SlashTemplate DEV"
-            applicationIdSuffix ".dev"
-        }
-        pre {
-            resValue "string", "app_name", "SlashTemplate PRE"
-            applicationIdSuffix ".pre"
-        }
         prod {
-            resValue "string", "app_name", "Slashtemplate"
+            resValue "string", "app_name", "uniCheck"
         }
     }
 }
